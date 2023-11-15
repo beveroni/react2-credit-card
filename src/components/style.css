@@ -1,4 +1,6 @@
 .credit-card-input-container {
+  position: relative;
+  /* Nutné pro absolutní pozicování potomka */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,4 +34,10 @@ span {
   margin: 0 10px;
   display: inline-flex;
   align-items: center;
+}
+
+.credit-card-error-message {
+  font-size: 1rem;
+  position: absolute;
+  bottom: -150px;
 }

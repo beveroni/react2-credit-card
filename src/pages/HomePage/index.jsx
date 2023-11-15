@@ -7,7 +7,7 @@ export const HomePage = () => {
       <header>
         <h1>Kreditní karta</h1>
       </header>
-      <p>Napište číslo své kreditní karty.</p>
+      <p>Zadej číslo své kreditní karty.</p>
       <main>
         <CreditCardInput />
       </main>
